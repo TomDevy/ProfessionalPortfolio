@@ -29,13 +29,13 @@ export function Hero() {
             Hi, I'm Emmanuel Agboola
           </h1>
           <p className="text-xl text-muted-foreground">
-            A passionate software engineer focused on building beautiful and functional web applications
+          I specialize in building high-performance, scalable web applications that enhance user experience and drive business growth.
           </p>
         </div>
 
         <div className="flex justify-center gap-4">
           <Button asChild size="lg">
-            <Link href="/contact">Let's Connect</Link>
+            <Link href="/contact">Hire me</Link>
           </Button>
           <Button variant="outline" size="lg" asChild>
             <Link href="/projects">View My Work</Link>
