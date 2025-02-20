@@ -1,8 +1,7 @@
-"use client"
+"use client";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import pics from "../../public/Emma (5).jpg"
 import { GithubIcon, LinkedinIcon, XIcon } from "lucide-react";
 import { Button } from "../ui/button";
 import * as framerMotion from "framer-motion";
@@ -19,7 +18,7 @@ export function Hero() {
       >
         <div className="space-y-4">
           <Image
-            src={pics}
+            src="/Emma (5).jpg"
             alt="Profile"
             width={128}
             height={128}
@@ -29,35 +28,58 @@ export function Hero() {
             Hi, I'm Emmanuel Agboola
           </h1>
           <p className="text-xl text-muted-foreground">
-          I specialize in building high-performance, scalable web applications that enhance user experience and drive business growth.
+            I specialize in building high-performance, scalable web applications
+            that enhance user experience and drive business growth.
           </p>
         </div>
 
         <div className="flex justify-center gap-4">
-          <Button asChild size="lg">
+          <Button variant="outline" asChild size="lg">
             <Link href="/contact">Hire me</Link>
           </Button>
           <Button variant="outline" size="lg" asChild>
             <Link href="/projects">View My Work</Link>
           </Button>
         </div>
+        <Button variant="outline" size="lg" asChild>
+          <a href="/resume.pdf" download>
+            Download Resume
+          </a>
+        </Button>
 
         <div className="flex justify-center gap-4 pt-4">
-          <Button variant="ghost" size="icon" asChild>
-            <a href="https://github.com/TomDevy/" target="_blank" rel="noopener noreferrer">
-              <GithubIcon className="w-5 h-5" />
-            </a>
-          </Button>
-          <Button variant="ghost" size="icon" asChild>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-              <LinkedinIcon className="w-5 h-5" />
-            </a>
-          </Button>
-          <Button variant="ghost" size="icon" asChild>
-            <a href="https://x.com/Tom_Agboola" target="_blank" rel="noopener noreferrer">
-              <XIcon className="w-5 h-5" />
-            </a>
-          </Button>
+          <motion.a
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
+            href="https://github.com/TomDevy/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-2 rounded-lg hover:bg-gray-100 transition"
+          >
+            <GithubIcon className="w-5 h-5" />
+          </motion.a>
+
+          <motion.a
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
+            href="https://github.com/TomDevy/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-2 rounded-lg hover:bg-gray-100 transition"
+          >
+            <LinkedinIcon className="w-5 h-5" />
+          </motion.a>
+
+          <motion.a
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
+            href="https://x.com/Tom_Agboola"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-2 rounded-lg hover:bg-gray-100 transition"
+          >
+            <XIcon className="w-5 h-5" />
+          </motion.a>
         </div>
       </motion.div>
     </div>
