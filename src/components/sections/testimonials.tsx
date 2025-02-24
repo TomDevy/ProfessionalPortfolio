@@ -1,0 +1,81 @@
+"use client";
+import React, { useState } from "react";
+import { motion } from "framer-motion";
+import Image from "next/image";
+import { Button } from "../ui/button";
+import { ChevronLeft, ChevronRight } from "lucide-react";
+
+// Testimonial data
+const testimonials = [
+  {
+    name: "Olamide Agunbiade",
+    role: "Digital Artist and Founder, OA Comics Ltd",
+    image: "/oa.jpeg",
+    feedback:
+      "I've had the pleasure of working with Agboola Emmanuel to manage my websites, olamide.ng and oastores.com. His exceptional technical expertise and dedication to delivering great results have been invaluable to my online presence. Emmanuel has consistently demonstrated a deep understanding of my needs, promptly addressing any issues and implementing innovative solutions to enhance user experience. His professionalism and reliability have made our collaboration a truly enjoyable experience. I highly recommend Emmanuel to anyone seeking a skilled and trustworthy developer to manage their websites. His outstanding service has earned my trust and loyalty, and I look forward to our continued partnership.",
+  },
+  {
+    name: "Israel Adetomokun",
+    role: "Fronted Engineer",
+    image: "/israel.jpg",
+    feedback:
+      "Emmanuel Agboola is an exceptional software engineer and an invaluable team player. Having collaborated with him on multiple projects, I’ve consistently been impressed by his keen attention to detail, problem-solving abilities, and outstanding coding skills. His contributions always elevate the project, ensuring efficiency and excellence. Whether tackling complex challenges or refining the smallest details, he approaches every task with precision and dedication. Emmanuel is not just a skilled developer, he’s the ideal person to have on any team.",
+  },
+  {
+    name: "Michael Lee",
+    role: "Lead Developer, WebFlow",
+    image: "/michael.jpg",
+    feedback:
+      "A talented engineer with a great work ethic. Emmanuel always delivers beyond expectations.",
+  },
+];
+
+export default function Testimonials() {
+  const [index, setIndex] = useState(0);
+
+  // Functions to navigate testimonials
+  const prevTestimonial = () =>
+    setIndex((prev) => (prev === 0 ? testimonials.length - 1 : prev - 1));
+  const nextTestimonial = () =>
+    setIndex((prev) => (prev === testimonials.length - 1 ? 0 : prev + 1));
+
+  return (
+    <section className="py-16 bg-gray-100">
+      <div className="container text-center max-w-3xl mx-auto">
+        <h2 className="text-3xl font-bold mb-6">What People Say</h2>
+        <motion.div
+          key={index}
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          className="bg-white p-6 rounded-xl shadow-lg"
+        >
+          <Image
+            src={testimonials[index].image}
+            alt={testimonials[index].name}
+            width={80}
+            height={80}
+            className="mx-auto rounded-full"
+          />
+          <p className="text-lg mt-4 font-medium">
+            {testimonials[index].feedback}
+          </p>
+          <h4 className="text-xl font-semibold mt-3">
+            {testimonials[index].name}
+          </h4>
+          <span className="text-gray-500">{testimonials[index].role}</span>
+        </motion.div>
+
+        {/* Navigation buttons */}
+        <div className="flex justify-center gap-4 mt-6">
+          <Button variant="outline" onClick={prevTestimonial}>
+            <ChevronLeft className="w-5 h-5" />
+          </Button>
+          <Button variant="outline" onClick={nextTestimonial}>
+            <ChevronRight className="w-5 h-5" />
+          </Button>
+        </div>
+      </div>
+    </section>
+  );
+}

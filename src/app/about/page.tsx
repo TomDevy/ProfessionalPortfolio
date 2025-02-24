@@ -5,7 +5,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className="container py-12">
+    <div className="container px-12 py-12">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -56,7 +56,7 @@ export default function About() {
               <li>
                 <strong>BS in Computer Science</strong>
                 <br />
-                University of Technology • 2016
+                Federal University of Technology, Akure, Nigeria • 2023
               </li>
             </ul>
           </div>

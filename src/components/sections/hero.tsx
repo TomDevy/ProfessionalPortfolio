@@ -35,7 +35,7 @@ const floatingAnimation = {
   },
 };
 
-export function Hero() {
+export default function Hero() {
   return (
     <div className="relative w-full min-h-[calc(100vh-3.5rem)] flex flex-col items-center justify-center py-12 text-center overflow-hidden bg-white text-black">
       {/* Scattered Code Background with Floating and Pulsing Effects */}

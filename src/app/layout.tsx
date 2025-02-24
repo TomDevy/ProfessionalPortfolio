@@ -18,11 +18,9 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body>
-        {/* <QueryClientProvider client={queryClient}> */}
           <Navbar />
           <main>{children}</main>
           <Toaster />
-        {/* </QueryClientProvider> */}
       </body>
     </html>
   );

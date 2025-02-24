@@ -27,7 +27,7 @@ const marqueeVariants = {
   },
 };
 
-export function CompanyLogos() {
+export default function CompanyLogos() {
   return (
     <div className="relative w-full bg-gray-100 py-8 overflow-hidden">
       <h2 className="text-2xl font-semibold text-center mb-6">
