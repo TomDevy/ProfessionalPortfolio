@@ -5,32 +5,39 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
-    title: "Inkoret E-commerce",
-    description: "A full-featured e-commerce platform built with Next.js and Stripe integration.",
-    image: "https://images.unsplash.com/photo-1508873535684-277a3cbcc4e8",
-    githubUrl: "https://github.com/example/inkoret",
-    liveUrl: "https://inkoret.example.com"
+    title: "Vesspor - Real Estate Investment Platform",
+    description: "A modern platform enabling individuals to invest in real estate properties seamlessly.",
+    image: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6",
+    githubUrl: "", // Add link if you have the repo public, or leave empty
+    liveUrl: "https://vesspor.com"
   },
   {
-    title: "Portfolio Dashboard",
-    description: "A beautiful dashboard for tracking investments and financial goals.",
-    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40",
-    githubUrl: "https://github.com/example/dashboard",
-    liveUrl: "https://dashboard.example.com"
+    title: "Olamide.ng - Digital Artist Portfolio",
+    description: "A beautifully crafted portfolio showcasing the stunning works of a talented digital artist.",
+    image: "https://api.pikwy.com/web/67c4cfc9443f121c2a7d0327.jpg",
+    githubUrl: "", // Add link if you have the repo public
+    liveUrl: "https://olamide.ng"
   },
   {
-    title: "Task Manager",
-    description: "A minimal and efficient task management application with real-time updates.",
-    image: "https://images.unsplash.com/photo-1510759395231-72b17d622279",
-    githubUrl: "https://github.com/example/tasks",
-    liveUrl: "https://tasks.example.com"
+    title: "Inkoret - Digital Artist Potfolio and Store",
+    description: "A portfolio website and store for a digital artist",
+    image: "https://api.pikwy.com/web/67c4d13cd4fa0e395d54b20e.jpg",
+    githubUrl: "", // Add link if you have the repo public
+    liveUrl: "https://inkoret.vercel.app"
   },
   {
-    title: "Weather App",
-    description: "A weather forecast application with beautiful animations and accurate data.",
-    image: "https://images.unsplash.com/photo-1660592868727-858d28c3ba52",
-    githubUrl: "https://github.com/example/weather",
-    liveUrl: "https://weather.example.com"
+    title: "OA Stores - E-commerce for Digital Arts & Materials",
+    description: "An e-commerce website offering digital arts and creative materials for artists and enthusiasts.",
+    image: "https://api.pikwy.com/web/67c4d0125251dd016a19864e.jpg",
+    githubUrl: "", // Add link if you have the repo public
+    liveUrl: "https://oastores.com"
+  },
+  {
+    title: "Blaze Brand Limited - Migration Agency Website",
+    description: "An informational website providing guidance and services for individuals looking to migrate abroad.",
+    image: "https://api.pikwy.com/web/67c4d0c6d572e70aed65f7f0.jpg",
+    githubUrl: "", // Add link if you have the repo public
+    liveUrl: "https://blazebrandlimited.com"
   }
 ];
 
@@ -45,7 +52,7 @@ export default function Projects() {
         <div className="space-y-4">
           <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl">Projects</h1>
           <p className="text-muted-foreground">
-            Here are some of my recent projects. Each one was carefully crafted with attention to detail and user experience.
+            Here are some of my recent projects. Each one was crafted with attention to detail, functionality, and user experience.
           </p>
         </div>
 

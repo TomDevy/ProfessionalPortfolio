@@ -1,7 +1,6 @@
 "use client";
-
 import { motion } from "framer-motion";
-import React from "react";
+import { ExternalLink } from "lucide-react"; // For project links
 
 export default function About() {
   return (
@@ -11,52 +10,96 @@ export default function About() {
         animate={{ opacity: 1, y: 0 }}
         className="prose prose-gray dark:prose-invert max-w-none"
       >
-        <h1>About Me</h1>
+        <h1 className="text-4xl font-bold mb-6">About Me</h1>
 
         <div className="grid md:grid-cols-2 gap-12">
           <div>
-            <h2>Background</h2>
+            <h2 className="text-2xl font-semibold">Background</h2>
             <p>
-              I'm a software engineer with a passion for creating beautiful and functional web applications.
-              With over 5 years of experience in web development, I specialize in modern JavaScript frameworks
-              and have a keen eye for design.
+              I’m a results-driven Software Engineer specializing in building
+              high-performance web applications that scale. With over 5 years of
+              experience, I have designed and optimized solutions that improved
+              user experience by <strong>35%</strong> and reduced page load
+              times by <strong>40%</strong>.
             </p>
 
-            <h2>Skills</h2>
-            <ul>
-              <li>Frontend: React, TypeScript, Next.js</li>
-              <li>Backend: Node.js, Express, PostgreSQL</li>
-              <li>Design: Figma, Tailwind CSS</li>
-              <li>Tools: Git, Docker, AWS</li>
-            </ul>
+            <h2 className="text-2xl font-semibold mt-8">
+              Skills & Technologies
+            </h2>
+            <div className="grid grid-cols-2 gap-4">
+              <div>
+                <h3 className="text-lg font-medium">Frontend</h3>
+                <ul>
+                  <li>React, Next.js, TypeScript, JavaScript</li>
+                  <li>Redux, React Query</li>
+                  <li>Tailwind CSS</li>
+                  <li>Git, GitHub</li>
+                </ul>
+              </div>
+            </div>
           </div>
 
           <div>
-            <h2>Experience</h2>
+            <h2 className="text-2xl font-semibold">Professional Experience</h2>
             <ul>
               <li>
-                <strong>Senior Frontend Engineer</strong>
-                <br />
-                Tech Corp • 2020 - Present
+                <strong>Frontend Engineer</strong> – Peregrine (January 2023 -
+                November 2023)
+                <ul>
+                  <li>Led UI revamp, increasing user engagement by 35%.</li>
+                  <li>Optimized performance, reducing load times by 42%.</li>
+                </ul>
               </li>
               <li>
-                <strong>Full Stack Developer</strong>
-                <br />
-                StartupX • 2018 - 2020
+                <strong>Frontend Engineer</strong> – Pronact (April 2023 -
+                Present)
+                <ul>
+                  <li>
+                    Collaborated with Product Designers to design and implement
+                    UI
+                  </li>
+                  <li>
+                    Worked closely with backend engineers to plug in and
+                    implement APIs
+                  </li>
+                </ul>
               </li>
               <li>
-                <strong>Junior Developer</strong>
-                <br />
-                WebAgency • 2016 - 2018
+                <strong>Fullstack Engineer</strong> – OA Stores (June 2023 -
+                Present)
+                <ul>
+                  <li>
+                    Managed and maintained the e-commerce website, ensuring
+                    optimal performance and a seamless user experience.
+                  </li>
+                  <li>
+                    Developed and integrated a custom solution for purchasing
+                    and delivering eBooks directly through the platform,
+                    resulting in over 500 successful purchases to date.
+                  </li>
+                  <li>
+                    Enhanced the website’s user interface, improving
+                    accessibility, navigation, and visual appeal to boost user
+                    engagement.
+                  </li>
+                  <li>
+                    Performed regular updates, bug fixes, and optimizations to
+                    ensure stability and compatibility across devices.
+                  </li>
+                  <li>
+                    Collaborated closely with the store owner to implement new
+                    features and align the platform with evolving business
+                    needs.
+                  </li>
+                </ul>
               </li>
             </ul>
 
-            <h2>Education</h2>
+            <h2 className="text-2xl font-semibold mt-8">Education</h2>
             <ul>
               <li>
-                <strong>BS in Computer Science</strong>
-                <br />
-                Federal University of Technology, Akure, Nigeria • 2023
+                <strong>BTech Computer Science</strong> – Federal University of
+                Technology, Akure
               </li>
             </ul>
           </div>
