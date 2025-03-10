@@ -21,7 +21,7 @@ const marqueeVariants = {
     x: ["0%", "-100%"],
     transition: {
       ease: "linear",
-      duration: 10,
+      duration: 20,
       repeat: Infinity,
     },
   },

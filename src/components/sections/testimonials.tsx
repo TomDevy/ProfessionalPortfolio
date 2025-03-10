@@ -22,11 +22,11 @@ const testimonials = [
       "Emmanuel Agboola is an exceptional software engineer and an invaluable team player. Having collaborated with him on multiple projects, I’ve consistently been impressed by his keen attention to detail, problem-solving abilities, and outstanding coding skills. His contributions always elevate the project, ensuring efficiency and excellence. Whether tackling complex challenges or refining the smallest details, he approaches every task with precision and dedication. Emmanuel is not just a skilled developer, he’s the ideal person to have on any team.",
   },
   {
-    name: "Michael Lee",
-    role: "Lead Developer, WebFlow",
-    image: "/michael.jpg",
+    name: "Daniel Coker",
+    role: "Software Engineer, Cowrywise",
+    image: "/Dan.jpg",
     feedback:
-      "A talented engineer with a great work ethic. Emmanuel always delivers beyond expectations.",
+      "I’ve known Emmanuel for about seven years now, and he’s one of the most reliable and easygoing people to work with. He’s calm, trustworthy, and always delivers on his part of a project—often going above and beyond. If you’re looking for a skilled frontend engineer who’s dependable and great to collaborate with, Emmanuel is your guy",
   },
 ];
 

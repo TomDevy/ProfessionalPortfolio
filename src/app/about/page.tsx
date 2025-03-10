@@ -1,6 +1,7 @@
 "use client";
+import React from "react";
 import { motion } from "framer-motion";
-import { ExternalLink } from "lucide-react"; // For project links
+import { ExternalLink } from "lucide-react";
 
 export default function About() {
   return (
