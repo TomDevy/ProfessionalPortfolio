@@ -31,7 +31,7 @@ const testimonials = [
   {
     name: "Joseph Ajele",
     role: "Founder, Pronact Technologies",
-    image: "/Dan.jpg",
+    image: "/aj.jpg",
     feedback:
       "I had the pleasure of working with Emmanuel on several projects, and his expertise in front-end development consistently impressed me. He is not only technically proficient but also an excellent collaborator, always open to feedback and proactive in finding solutions. His ability to translate complex requirements into seamless, functional designs makes him an invaluable asset to any team.",
   },
