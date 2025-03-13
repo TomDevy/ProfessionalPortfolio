@@ -28,6 +28,13 @@ const testimonials = [
     feedback:
       "I’ve known Emmanuel for about seven years now, and he’s one of the most reliable and easygoing people to work with. He’s calm, trustworthy, and always delivers on his part of a project—often going above and beyond. If you’re looking for a skilled frontend engineer who’s dependable and great to collaborate with, Emmanuel is your guy",
   },
+  {
+    name: "Joseph Ajele",
+    role: "Founder, Pronact Technologies",
+    image: "/Dan.jpg",
+    feedback:
+      "I had the pleasure of working with Emmanuel on several projects, and his expertise in front-end development consistently impressed me. He is not only technically proficient but also an excellent collaborator, always open to feedback and proactive in finding solutions. His ability to translate complex requirements into seamless, functional designs makes him an invaluable asset to any team.",
+  },
 ];
 
 export default function Testimonials() {
