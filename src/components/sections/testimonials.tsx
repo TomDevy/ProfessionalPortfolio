@@ -35,6 +35,13 @@ const testimonials = [
     feedback:
       "I had the pleasure of working with Emmanuel on several projects, and his expertise in front-end development consistently impressed me. He is not only technically proficient but also an excellent collaborator, always open to feedback and proactive in finding solutions. His ability to translate complex requirements into seamless, functional designs makes him an invaluable asset to any team.",
   },
+  {
+    name: "Stanley O'mene",
+    role: "Software Engineer",
+    image: "/aj.jpg",
+    feedback:
+      "Working with Emmanuel was a great experience. He’s a skilled frontend developer with a strong grasp of Next.js and a keen eye for detail. Beyond his technical abilities, he’s a friendly and approachable team player who collaborates effectively and always brings a problem-solving mindset to the table. His positive attitude made working together smooth and productive. I highly recommend him for any team looking for a reliable and talented developer.",
+  },
 ];
 
 export default function Testimonials() {
