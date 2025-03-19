@@ -16,7 +16,7 @@ const testimonials = [
   },
   {
     name: "Israel Adetomokun",
-    role: "Fronted Engineer",
+    role: "Frontend Engineer",
     image: "/israel.jpg",
     feedback:
       "Emmanuel Agboola is an exceptional software engineer and an invaluable team player. Having collaborated with him on multiple projects, I’ve consistently been impressed by his keen attention to detail, problem-solving abilities, and outstanding coding skills. His contributions always elevate the project, ensuring efficiency and excellence. Whether tackling complex challenges or refining the smallest details, he approaches every task with precision and dedication. Emmanuel is not just a skilled developer, he’s the ideal person to have on any team.",
