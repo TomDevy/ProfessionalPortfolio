@@ -7,7 +7,7 @@ const projects = [
   {
     title: "Vesspor - Real Estate Investment Platform",
     description: "A modern platform enabling individuals to invest in real estate properties seamlessly.",
-    image: " https://pikwy.com/web/67c604bafdaf9a41e93d3613.jpg",
+    image: "https://pikwy.com/web/67c604bafdaf9a41e93d3613.jpg",
     githubUrl: "", // Add link if you have the repo public, or leave empty
     liveUrl: "https://vesspor.com"
   },
