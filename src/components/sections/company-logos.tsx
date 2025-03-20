@@ -14,7 +14,7 @@ const companyLogos = [
 // Animation settings
 const marqueeVariants = {
   animate: {
-    x: ["0%", "-50%"], // Move by 50% instead of 100% to ensure smooth looping
+    x: ["0%", "-50%"],
     transition: {
       ease: "linear",
       duration: 20,
