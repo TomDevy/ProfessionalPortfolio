@@ -69,7 +69,8 @@ export default function Testimonials() {
             alt={testimonials[index].name}
             width={80}
             height={80}
-            className="mx-auto rounded-full"
+            className="mx-auto rounded-full object-cover"
+            style={{ aspectRatio: "1 / 1" }}
           />
           <p className="text-lg mt-4 font-medium">
             {testimonials[index].feedback}
