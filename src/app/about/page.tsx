@@ -47,8 +47,8 @@ export default function About() {
                 <strong>Frontend Engineer</strong> – Peregrine (January 2023 -
                 November 2023)
                 <ul>
-                  <li>Led UI revamp, increasing user engagement by 35%.</li>
-                  <li>Optimized performance, reducing load times by 42%.</li>
+                  <li>Facilitated UI build</li>
+                  <li>Optimized performance. Plugged in APIs.</li>
                 </ul>
               </li>
               <li>

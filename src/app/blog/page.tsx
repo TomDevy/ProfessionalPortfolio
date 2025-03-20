@@ -33,7 +33,7 @@ const posts = [
 
 export default function Blog() {
   return (
-    <div className="container py-12">
+    <div className="container px-12 py-12">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
