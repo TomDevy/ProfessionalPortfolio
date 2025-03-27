@@ -14,28 +14,28 @@ const projects = [
   {
     title: "Olamide.ng - Digital Artist Portfolio",
     description: "A beautifully crafted portfolio showcasing the stunning works of a talented digital artist.",
-    image: "olamide.jpg",
+    image: "/olamide.jpg",
     githubUrl: "", // Add link if you have the repo public
     liveUrl: "https://olamide.ng"
   },
   {
     title: "Inkoret - Digital Artist Potfolio and Store",
     description: "A portfolio website and store for a digital artist",
-    image: "inkoret.jpg",
+    image: "/inkoret.jpg",
     githubUrl: "", // Add link if you have the repo public
     liveUrl: "https://inkoret.vercel.app"
   },
   {
     title: "OA Stores - E-commerce for Digital Arts & Materials",
     description: "An e-commerce website offering digital arts and creative materials for artists and enthusiasts.",
-    image: "oastores.jpg",
+    image: "/oastores.jpg",
     githubUrl: "", // Add link if you have the repo public
     liveUrl: "https://oastores.com"
   },
   {
     title: "Blaze Brand Limited - Migration Agency Website",
     description: "An informational website providing guidance and services for individuals looking to migrate abroad.",
-    image: "blazebrandlimited.jpg",
+    image: "/blazebrandlimited.jpg",
     githubUrl: "", // Add link if you have the repo public
     liveUrl: "https://blazebrandlimited.com"
   }
