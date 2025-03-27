@@ -7,35 +7,35 @@ const projects = [
   {
     title: "Vesspor - Real Estate Investment Platform",
     description: "A modern platform enabling individuals to invest in real estate properties seamlessly.",
-    image: "https://api.pikwy.com/web/67c604bafdaf9a41e93d3613.jpg",
+    image: "https://pikwy.com/web/67e538ed0aed1225a07e6b5f",
     githubUrl: "", // Add link if you have the repo public, or leave empty
     liveUrl: "https://vesspor.com"
   },
   {
     title: "Olamide.ng - Digital Artist Portfolio",
     description: "A beautifully crafted portfolio showcasing the stunning works of a talented digital artist.",
-    image: "https://api.pikwy.com/web/67c4cfc9443f121c2a7d0327.jpg",
+    image: "https://pikwy.com/web/67e538012bd4367d7671e31e",
     githubUrl: "", // Add link if you have the repo public
     liveUrl: "https://olamide.ng"
   },
   {
     title: "Inkoret - Digital Artist Potfolio and Store",
     description: "A portfolio website and store for a digital artist",
-    image: "https://api.pikwy.com/web/67c4d13cd4fa0e395d54b20e.jpg",
+    image: "https://pikwy.com/web/67e538bdfa5923757668afca",
     githubUrl: "", // Add link if you have the repo public
     liveUrl: "https://inkoret.vercel.app"
   },
   {
     title: "OA Stores - E-commerce for Digital Arts & Materials",
     description: "An e-commerce website offering digital arts and creative materials for artists and enthusiasts.",
-    image: "https://api.pikwy.com/web/67c4d0125251dd016a19864e.jpg",
+    image: "https://pikwy.com/web/67e5384a4f92a71c5f2c0062",
     githubUrl: "", // Add link if you have the repo public
     liveUrl: "https://oastores.com"
   },
   {
     title: "Blaze Brand Limited - Migration Agency Website",
     description: "An informational website providing guidance and services for individuals looking to migrate abroad.",
-    image: "https://api.pikwy.com/web/67c4d0c6d572e70aed65f7f0.jpg",
+    image: "https://pikwy.com/web/67e53881a778631628447913",
     githubUrl: "", // Add link if you have the repo public
     liveUrl: "https://blazebrandlimited.com"
   }

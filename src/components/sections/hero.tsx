@@ -86,7 +86,7 @@ export default function Hero() {
         </div>
 
         <Button variant="outline" size="lg" asChild>
-          <a href="/resume.pdf" download>
+          <a href="/Emmanuel Agboola_Resume (1).pdf" download>
             Download Resume
           </a>
         </Button>
