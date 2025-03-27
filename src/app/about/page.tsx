@@ -52,7 +52,7 @@ export default function About() {
                 </ul>
               </li>
               <li>
-                <strong>Frontend Engineer</strong> – Pronact (April 2023 -
+                <strong>Frontend Engineer</strong> – Pronact (June 2022 -
                 Present)
                 <ul>
                   <li>
@@ -71,7 +71,7 @@ export default function About() {
                 <ul>
                   <li>
                     Managed and maintained the e-commerce website, ensuring
-                    optimal performance and a seamless user experience.
+                    optimal performance and a seamless user experience using PHP.
                   </li>
                   <li>
                     Developed and integrated a custom solution for purchasing
