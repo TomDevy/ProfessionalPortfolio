@@ -55,7 +55,7 @@ export default function ContactPage() {
   };
 
   return (
-    <div className="container py-12">
+    <div className="container py-12 px-12 md: px-6 py-6">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}

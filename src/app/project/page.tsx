@@ -43,7 +43,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <div className="container px-12 py-12">
+    <div className="container px-12 py-12 md: px-6 py-6">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
