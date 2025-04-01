@@ -62,10 +62,10 @@ export function Navbar() {
               <Button
                 variant="ghost"
                 size="icon"
-                className={isOpen ? "text-white" : ""}
+                // className={isOpen ? "text-white" : ""}
               >
                 {isOpen ? (
-                  <X className="text-white h-5 w-5" />
+                  <X className="stroke-white h-5 w-5" />
                 ) : (
                   <Menu className="h-5 w-5" />
                 )}
