@@ -52,7 +52,7 @@ export default function Projects() {
         <div className="space-y-4">
           <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl">Projects</h1>
           <p className="text-muted-foreground">
-            Here are some of my recent projects. Each one was ed with attention to detail, functionality, and user experience.
+            Here are some of my recent projects. Each one was engineered with attention to detail, functionality, and user experience.
           </p>
         </div>
 
