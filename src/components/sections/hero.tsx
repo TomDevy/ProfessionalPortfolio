@@ -86,7 +86,7 @@ export default function Hero() {
         </div>
 
         <Button variant="outline" size="lg" asChild>
-          <a href="/Emmanuel Agboola_Resume (1).pdf" download>
+          <a href="/Emmanuel Agboola_Resume (2).pdf" download>
             Download Resume
           </a>
         </Button>
@@ -106,7 +106,7 @@ export default function Hero() {
           <motion.a
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/emmanuel-agboola-tom"
             target="_blank"
             rel="noopener noreferrer"
             className="p-2 rounded-lg hover:bg-gray-100 transition"

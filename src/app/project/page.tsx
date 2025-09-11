@@ -12,18 +12,18 @@ const projects = [
     liveUrl: "https://vesspor.com"
   },
   {
-    title: "Olamide.ng - Digital Artist Portfolio",
-    description: "A beautifully crafted portfolio showcasing the stunning works of a talented digital artist.",
-    image: "/olamide.jpg",
+    title: "OA Academy - Digital Art Academy",
+    description: "An engaging platform for a digital artist's mentorship academy, featuring class schedules, resources, and curated sessions for aspiring creatives.",
+    image: "/OA Academy.jpeg",
     githubUrl: "", // Add link if you have the repo public
-    liveUrl: "https://olamide.ng"
+    liveUrl: "https://www.oaacademy.online/"
   },
   {
-    title: "Inkoret - Digital Artist Potfolio and Store",
-    description: "A portfolio website and store for a digital artist",
-    image: "/inkoret.jpg",
+    title: "All In One Home Inspections - Home inspection booking website",
+    description: "A modern website for a U.S.-based home inspection company, featuring online booking, service details, and a seamless user experience.",
+    image: "/All in One Home Inspection.jpeg",
     githubUrl: "", // Add link if you have the repo public
-    liveUrl: "https://inkoret.vercel.app"
+    liveUrl: "https://www.allinonehomeinspections.com/"
   },
   {
     title: "OA Stores - E-commerce for Digital Arts & Materials",
