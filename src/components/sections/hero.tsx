@@ -8,7 +8,7 @@ import * as framerMotion from "framer-motion";
 
 const { motion } = framerMotion;
 
-// Code snippets with static coordinates to prevent hydration mismatch and layout shifts
+//Code snippets with static coordinates to prevent hydration mismatch and layout shifts
 const codeSnippets = [
   { text: "function sayHello() { console.log('Hello, world!'); }", top: "12%", left: "8%", rotate: -5 },
   { text: "const user = { name: 'Emmanuel', role: 'Frontend Engineer' };", top: "22%", left: "68%", rotate: 4 },
