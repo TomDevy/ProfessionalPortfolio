@@ -18,7 +18,7 @@ const codeSnippets = [
   { text: "export const skills = ['React', 'Next.js', 'TypeScript'];", top: "82%", left: "64%", rotate: 2 },
 ];
 
-// Floating and pulsing animation variants
+//Floating and pulsing animation variants
 const floatingAnimation = {
   initial: { opacity: 0.3, y: 0 },
   animate: {
