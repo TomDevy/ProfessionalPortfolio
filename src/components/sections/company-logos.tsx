@@ -1,27 +1,14 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import { motion } from "framer-motion";
 
 const companyLogos = [
-  "/logos/OA.png",
+  "/logos/OA.webp",
   "/logos/Inkoret.png",
   "/logos/BrandedHeart.png",
   "/logos/BlazeBrand.png",
   "/logos/Vesspor.svg",
 ];
-
-// Animation settings
-const marqueeVariants = {
-  animate: {
-    x: ["0%", "-20%"],
-    transition: {
-      ease: "linear",
-      duration: 20,
-      repeat: Infinity,
-    },
-  },
-};
 
 export default function CompanyLogos() {
   return (
@@ -30,11 +17,7 @@ export default function CompanyLogos() {
         Worked with brands like
       </h2>
       <div className="relative flex overflow-hidden w-full">
-        <motion.div
-          className="flex whitespace-nowrap min-w-max"
-          variants={marqueeVariants}
-          animate="animate"
-        >
+        <div className="flex whitespace-nowrap min-w-max animate-marquee">
           {[...companyLogos, ...companyLogos].map((logo, index) => (
             <div
               key={index}
@@ -49,7 +32,7 @@ export default function CompanyLogos() {
               />
             </div>
           ))}
-        </motion.div>
+        </div>
       </div>
     </div>
   );

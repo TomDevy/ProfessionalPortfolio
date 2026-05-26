@@ -8,22 +8,15 @@ import * as framerMotion from "framer-motion";
 
 const { motion } = framerMotion;
 
-// Code snippets to be scattered in the background
+// Code snippets with static coordinates to prevent hydration mismatch and layout shifts
 const codeSnippets = [
-  "function sayHello() { console.log('Hello, world!'); }",
-  "const user = { name: 'Emmanuel', role: 'Frontend Engineer' };",
-  "const fetchData = async () => { const res = await fetch('/api'); }",
-  "for (let i = 0; i < 10; i++) { console.log(i); }",
-  "<Hero title='Welcome to my Portfolio' />",
-  "export const skills = ['React', 'Next.js', 'TypeScript'];",
+  { text: "function sayHello() { console.log('Hello, world!'); }", top: "12%", left: "8%", rotate: -5 },
+  { text: "const user = { name: 'Emmanuel', role: 'Frontend Engineer' };", top: "22%", left: "68%", rotate: 4 },
+  { text: "const fetchData = async () => { const res = await fetch('/api'); }", top: "42%", left: "12%", rotate: -3 },
+  { text: "for (let i = 0; i < 10; i++) { console.log(i); }", top: "58%", left: "72%", rotate: 6 },
+  { text: "<Hero title='Welcome to my Portfolio' />", top: "72%", left: "6%", rotate: -4 },
+  { text: "export const skills = ['React', 'Next.js', 'TypeScript'];", top: "82%", left: "64%", rotate: 2 },
 ];
-
-// Function to generate random positions for snippets
-const getRandomPosition = () => ({
-  top: `${Math.random() * 80}%`,
-  left: `${Math.random() * 80}%`,
-  transform: `rotate(${Math.random() * 15 - 7.5}deg)`, // Slight rotation
-});
 
 // Floating and pulsing animation variants
 const floatingAnimation = {
@@ -42,13 +35,17 @@ export default function Hero() {
       {codeSnippets.map((snippet, index) => (
         <motion.span
           key={index}
-          className="absolute text-gray-400 text-xs sm:text-sm font-mono"
-          style={getRandomPosition()}
+          className="absolute text-gray-400 text-xs sm:text-sm font-mono pointer-events-none select-none hidden sm:block"
+          style={{
+            top: snippet.top,
+            left: snippet.left,
+            transform: `rotate(${snippet.rotate}deg)`,
+          }}
           variants={floatingAnimation}
           initial="initial"
           animate="animate"
         >
-          {snippet}
+          {snippet.text}
         </motion.span>
       ))}
 
@@ -61,11 +58,12 @@ export default function Hero() {
       >
         <div className="space-y-4">
           <Image
-            src="/Emma (5).jpg"
+            src="/Emma-profile.webp"
             alt="Profile"
             width={128}
             height={128}
             className="w-32 h-32 rounded-full mx-auto object-cover"
+            priority
           />
           <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl">
             Hi, I'm Emmanuel Agboola
