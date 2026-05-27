@@ -61,7 +61,7 @@ export default function About() {
                   </li>
                   <li>
                     Worked closely with backend engineers to plug in and
-                    implement APIs
+                    implement APIs.
                   </li>
                 </ul>
               </li>
@@ -99,7 +99,7 @@ export default function About() {
             <h2 className="text-2xl font-semibold mt-8">Education</h2>
             <ul>
               <li>
-                <strong>BTech Computer Science</strong> – Federal University of
+                <strong>B.Tech Computer Science</strong> – Federal University of
                 Technology, Akure
               </li>
             </ul>
