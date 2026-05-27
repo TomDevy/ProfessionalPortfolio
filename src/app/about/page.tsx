@@ -61,7 +61,7 @@ export default function About() {
                   </li>
                   <li>
                     Worked closely with backend engineers to plug in and
-                    implement APIs.
+                    implement APIs
                   </li>
                 </ul>
               </li>
