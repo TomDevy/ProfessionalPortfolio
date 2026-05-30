@@ -34,7 +34,7 @@ export default function About() {
                   <li>React, Next.js, TypeScript, JavaScript</li>
                   <li>Redux, React Query</li>
                   <li>Tailwind CSS</li>
-                  <li>Git, GitHub</li>
+                  {/* <li>Git, GitHub</li> */}
                 </ul>
               </div>
             </div>
