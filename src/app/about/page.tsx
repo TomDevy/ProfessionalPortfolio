@@ -14,95 +14,74 @@ export default function About() {
         <h1 className="text-4xl font-bold mb-6">About Me</h1>
 
         <div className="grid md:grid-cols-2 gap-12">
-          <div>
-            <h2 className="text-2xl font-semibold">Background</h2>
-            <p>
-              I’m a results-driven Software Engineer specializing in building
-              high-performance web applications that scale. With over 5 years of
-              experience, I have designed and optimized solutions that improved
-              user experience by <strong>35%</strong> and reduced page load
-              times by <strong>40%</strong>.
-            </p>
+          <div className="space-y-6">
+            <section>
+              <h2 className="text-2xl font-semibold mb-3">Professional Summary</h2>
+              <p className="text-lg leading-relaxed">
+                I am a results-oriented <strong>Software Engineer</strong> with over 5 years of experience in crafting 
+                high-performance, scalable web applications. My focus is on delivering exceptional user experiences 
+                through technical excellence and strategic optimization.
+              </p>
+              <p className="text-lg leading-relaxed">
+                Throughout my career, I have consistently driven measurable impact, including improving 
+                user engagement by <strong>35%</strong> and reducing page load times by <strong>40%</strong> 
+                through modern architectural patterns and performance tuning.
+              </p>
+            </section>
 
-            <h2 className="text-2xl font-semibold mt-8">
-              Skills & Technologies
-            </h2>
-            <div className="grid grid-cols-2 gap-4">
-              <div>
-                <h3 className="text-lg font-medium">Frontend</h3>
-                <ul>
-                  <li>React, Next.js, TypeScript, JavaScript</li>
-                  <li>Redux, React Query</li>
-                  <li>Tailwind CSS</li>
-                  <li>Git, GitHub</li>
+            <section>
+              <h2 className="text-2xl font-semibold mb-3">Core Expertise</h2>
+              <div className="flex flex-wrap gap-2">
+                {["React", "Next.js", "TypeScript", "JavaScript", "Redux", "React Query", "Tailwind CSS", "PHP", "Git"].map((skill) => (
+                  <span key={skill} className="px-3 py-1 bg-gray-100 dark:bg-gray-800 rounded-full text-sm font-medium">
+                    {skill}
+                  </span>
+                ))}
+              </div>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-semibold mb-3">Education</h2>
+              <p className="font-medium">B.Tech Computer Science</p>
+              <p className="text-muted-foreground">Federal University of Technology, Akure</p>
+            </section>
+          </div>
+
+          <div className="space-y-8">
+            <h2 className="text-2xl font-semibold mb-4">Professional Experience</h2>
+            
+            <div className="border-l-2 border-gray-200 dark:border-gray-700 pl-6 space-y-8">
+              <div className="relative">
+                <div className="absolute -left-[31px] top-1 w-4 h-4 rounded-full bg-black dark:bg-white" />
+                <h3 className="text-xl font-bold">Fullstack Engineer</h3>
+                <p className="text-sm font-medium text-muted-foreground">OA Stores | June 2023 – Present</p>
+                <ul className="mt-3 space-y-2 list-disc list-inside">
+                  <li>Engineered e-commerce solutions using PHP, driving 500+ eBook sales.</li>
+                  <li>Optimized performance and visual identity, significantly boosting user retention.</li>
+                  <li>Collaborated on feature roadmaps to align technical builds with business growth.</li>
+                </ul>
+              </div>
+
+              <div className="relative">
+                <div className="absolute -left-[31px] top-1 w-4 h-4 rounded-full bg-gray-300 dark:bg-gray-600" />
+                <h3 className="text-xl font-bold">Frontend Engineer</h3>
+                <p className="text-sm font-medium text-muted-foreground">Peregrine | Jan 2023 – Nov 2023</p>
+                <ul className="mt-3 space-y-2 list-disc list-inside">
+                  <li>Architected scalable UI components and integrated complex third-party APIs.</li>
+                  <li>Spearheaded performance optimization initiatives across core product modules.</li>
+                </ul>
+              </div>
+
+              <div className="relative">
+                <div className="absolute -left-[31px] top-1 w-4 h-4 rounded-full bg-gray-300 dark:bg-gray-600" />
+                <h3 className="text-xl font-bold">Frontend Engineer</h3>
+                <p className="text-sm font-medium text-muted-foreground">Pronact | June 2022 – Present</p>
+                <ul className="mt-3 space-y-2 list-disc list-inside">
+                  <li>Bridge the gap between design and engineering by implementing pixel-perfect interfaces.</li>
+                  <li>Developed robust API integration layers for seamless data flow and application stability.</li>
                 </ul>
               </div>
             </div>
-          </div>
-
-          <div>
-            <h2 className="text-2xl font-semibold">Professional Experience</h2>
-            <ul>
-              <li>
-                <strong>Frontend Engineer</strong> – Peregrine (January 2023 -
-                November 2023)
-                <ul>
-                  <li>Facilitated UI build</li>
-                  <li>Optimized performance. Plugged in APIs.</li>
-                </ul>
-              </li>
-              <li>
-                <strong>Frontend Engineer</strong> – Pronact (June 2022 -
-                Present)
-                <ul>
-                  <li>
-                    Collaborated with Product Designers to design and implement
-                    UI
-                  </li>
-                  <li>
-                    Worked closely with backend engineers to plug in and
-                    implement APIs
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <strong>Fullstack Engineer</strong> – OA Stores (June 2023 -
-                Present)
-                <ul>
-                  <li>
-                    Managed and maintained the e-commerce website, ensuring
-                    optimal performance and a seamless user experience using PHP.
-                  </li>
-                  <li>
-                    Developed and integrated a custom solution for purchasing
-                    and delivering eBooks directly through the platform,
-                    resulting in over 500 successful purchases to date.
-                  </li>
-                  <li>
-                    Enhanced the website’s user interface, improving
-                    accessibility, navigation, and visual appeal to boost user
-                    engagement.
-                  </li>
-                  <li>
-                    Performed regular updates, bug fixes, and optimizations to
-                    ensure stability and compatibility across devices.
-                  </li>
-                  <li>
-                    Collaborated closely with the store owner to implement new
-                    features and align the platform with evolving business
-                    needs.
-                  </li>
-                </ul>
-              </li>
-            </ul>
-
-            <h2 className="text-2xl font-semibold mt-8">Education</h2>
-            <ul>
-              <li>
-                <strong>B.Tech Computer Science</strong> – Federal University of
-                Technology, Akure
-              </li>
-            </ul>
           </div>
         </div>
       </motion.div>

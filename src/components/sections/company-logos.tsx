@@ -12,23 +12,30 @@ const companyLogos = [
 
 export default function CompanyLogos() {
   return (
-    <div className="relative w-full bg-gray-100 py-8 overflow-hidden">
-      <h2 className="text-2xl font-semibold text-center mb-6">
-        Worked with brands like
-      </h2>
+    <div className="relative w-full bg-gray-50/50 py-12 overflow-hidden border-y border-gray-100">
+      <div className="container px-4 mx-auto">
+        <h2 className="text-xl font-medium text-center text-gray-500 mb-8 tracking-tight">
+          Trusted by innovative brands worldwide
+        </h2>
+      </div>
+      
       <div className="relative flex overflow-hidden w-full">
-        <div className="flex whitespace-nowrap min-w-max animate-marquee">
-          {[...companyLogos, ...companyLogos].map((logo, index) => (
+        {/* Gradient Overlays for smooth fading */}
+        <div className="absolute inset-y-0 left-0 w-20 z-10 bg-gradient-to-r from-white to-transparent pointer-events-none" />
+        <div className="absolute inset-y-0 right-0 w-20 z-10 bg-gradient-to-l from-white to-transparent pointer-events-none" />
+
+        <div className="flex whitespace-nowrap min-w-max animate-marquee py-4">
+          {[...companyLogos, ...companyLogos, ...companyLogos, ...companyLogos].map((logo, index) => (
             <div
               key={index}
-              className="flex items-center justify-center w-32 h-16 mx-4"
+              className="flex items-center justify-center w-40 h-20 mx-8 grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-300"
             >
               <Image
                 src={logo}
-                alt={`Company ${index + 1}`}
-                width={120}
-                height={60}
-                className="object-contain"
+                alt={`Partner Brand ${index + 1}`}
+                width={140}
+                height={70}
+                className="object-contain max-h-12"
               />
             </div>
           ))}

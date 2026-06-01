@@ -5,6 +5,34 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
+    title: "Dootling - Creative Community Platform",
+    description: "A vibrant platform for artists to share doodles, sketches, and creative works with a global community.",
+    image: "/generated-icon.png",
+    githubUrl: "",
+    liveUrl: "https://dootling.com"
+  },
+  {
+    title: "Olamide - Personal Branding & Portfolio",
+    description: "A sleek, professional portfolio website designed to showcase personal brand identity and creative projects.",
+    image: "/olamide.jpg",
+    githubUrl: "",
+    liveUrl: "https://olamide.ng"
+  },
+  {
+    title: "Cutest Photography - Professional Portfolio",
+    description: "A high-end photography portfolio featuring seamless gallery transitions and a modern booking interface.",
+    image: "/generated-icon.png",
+    githubUrl: "",
+    liveUrl: "https://cutestphotography.com"
+  },
+  {
+    title: "Modern SaaS Landing Page",
+    description: "A performance-optimized landing page focused on high conversion rates and smooth user interactions.",
+    image: "/generated-icon.png",
+    githubUrl: "",
+    liveUrl: "https://landingpage-7cks.vercel.app/"
+  },
+  {
     title: "Vesspor - Real Estate Investment Platform",
     description: "A modern platform enabling individuals to invest in real estate properties seamlessly.",
     image: "/vesspor.jpg",
