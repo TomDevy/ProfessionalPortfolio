@@ -8,6 +8,8 @@ const companyLogos = [
   "/logos/BrandedHeart.png",
   "/logos/BlazeBrand.png",
   "/logos/Vesspor.svg",
+  "/logos/cutest.png",
+  "/logos/dootling.png",
 ];
 
 export default function CompanyLogos() {
