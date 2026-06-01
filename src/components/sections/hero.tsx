@@ -10,12 +10,12 @@ const { motion } = framerMotion;
 
 //Code snippets with static coordinates to prevent hydration mismatch and layout shifts
 const codeSnippets = [
-  { text: "function sayHello() { console.log('Hello, world!'); }", top: "12%", left: "8%", rotate: -5 },
-  { text: "const user = { name: 'Emmanuel', role: 'Frontend Engineer' };", top: "22%", left: "68%", rotate: 4 },
-  { text: "const fetchData = async () => { const res = await fetch('/api'); }", top: "42%", left: "12%", rotate: -3 },
-  { text: "for (let i = 0; i < 10; i++) { console.log(i); }", top: "58%", left: "72%", rotate: 6 },
-  { text: "<Hero title='Welcome to my Portfolio' />", top: "72%", left: "6%", rotate: -4 },
-  { text: "export const skills = ['React', 'Next.js', 'TypeScript'];", top: "82%", left: "64%", rotate: 2 },
+  { text: "function sayHello() { console.log('Hello, world!'); }", top: "12%", left: "5%", rotate: -5 },
+  { text: "const user = { name: 'Emmanuel', role: 'Frontend Engineer' };", top: "20%", right: "5%", rotate: 4 },
+  { text: "const fetchData = async () => { const res = await fetch('/api'); }", top: "40%", left: "2%", rotate: -3 },
+  { text: "for (let i = 0; i < 10; i++) { console.log(i); }", top: "60%", right: "2%", rotate: 6 },
+  { text: "<Hero title='Welcome to my Portfolio' />", top: "75%", left: "5%", rotate: -4 },
+  { text: "export const skills = ['React', 'Next.js', 'TypeScript'];", top: "85%", right: "5%", rotate: 2 },
 ];
 
 //Floating and pulsing animation variants
@@ -35,10 +35,11 @@ export default function Hero() {
       {codeSnippets.map((snippet, index) => (
         <motion.span
           key={index}
-          className="absolute text-gray-400 text-xs sm:text-sm font-mono pointer-events-none select-none hidden sm:block"
+          className="absolute text-gray-400/50 text-[10px] sm:text-sm font-mono pointer-events-none select-none whitespace-nowrap"
           style={{
             top: snippet.top,
-            left: snippet.left,
+            left: "left" in snippet ? snippet.left : undefined,
+            right: "right" in snippet ? snippet.right : undefined,
             transform: `rotate(${snippet.rotate}deg)`,
           }}
           variants={floatingAnimation}
