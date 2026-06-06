@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
-    title: "Dootling - Creative Community Platform",
+    title: "Dootling - E-commerce marketplace",
     description: "An e-commerce provider web application I collaboratively worked on.",
     image: "/dootling.com.png",
     githubUrl: "",
