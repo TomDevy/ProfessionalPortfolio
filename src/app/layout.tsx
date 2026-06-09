@@ -8,7 +8,7 @@ import { Metadata } from "next/dist/lib/metadata/types/metadata-interface";
 export const metadata: Metadata = {
   title: "Emmanuel Agboola",
   description:
-    "Software Engineer with a difference",
+    "Software Engineer with a difference.",
   icons: {
     icon: ["/favicon.ico?v=4"],
     apple: ["/apple-touch-icon.png?v=4"],
