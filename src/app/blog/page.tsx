@@ -42,7 +42,7 @@ export default function Blog() {
         <div className="space-y-4">
           <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl">Blog</h1>
           <p className="text-muted-foreground">
-            Thoughts on software development, faith, and personal growth.
+            Reed my houghts on software development, faith, and personal growth.
           </p>
         </div>
 
