@@ -47,7 +47,7 @@ export function Navbar() {
       <div className="container flex h-14 items-center">
         <Link href="/">
           <Button variant="link" className="text-xl font-bold">
-            Emmanuel A
+            Emmanuel A.
           </Button>
         </Link>
 
