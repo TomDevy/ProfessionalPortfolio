@@ -56,7 +56,7 @@ export function Navbar() {
             <NavLinks />
           </nav>
 
-          {/* Mobile Menu */}
+          {/* Mobile Menu*/}
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
             <SheetTrigger asChild className="md:hidden">
               <Button
