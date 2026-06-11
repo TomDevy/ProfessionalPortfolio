@@ -23,7 +23,7 @@ const testimonials = [
   },
   {
     name: "Daniel Coker",
-    role: "Software Engineer, Cowrywise",
+    role: "Senior Software Engineer, Cowrywise",
     image: "/Dan.jpg",
     feedback:
       "I’ve known Emmanuel for about seven years now, and he’s one of the most reliable and easygoing people to work with. He’s calm, trustworthy, and always delivers on his part of a project—often going above and beyond. If you’re looking for a skilled frontend engineer who’s dependable and great to collaborate with, Emmanuel is your guy",
