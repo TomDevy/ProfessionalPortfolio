@@ -8,7 +8,7 @@ import * as framerMotion from "framer-motion";
 
 const { motion } = framerMotion;
 
-//Code snippets with static coordinates to prevent hydration mismatch and layout shifts
+//Code snippets with static coordinates to prevent hydration mismatch and layout shifts//
 const codeSnippets = [
   { text: "function sayHello() { console.log('Hello, world!'); }", top: "12%", left: "5%", rotate: -5 },
   { text: "const user = { name: 'Emmanuel', role: 'Frontend Engineer' };", top: "20%", right: "5%", rotate: 4 },
@@ -18,7 +18,7 @@ const codeSnippets = [
   { text: "export const skills = ['React', 'Next.js', 'TypeScript'];", top: "85%", right: "5%", rotate: 2 },
 ];
 
-//Floating and pulsing animation variants
+//Floating and pulsing animation variants//
 const floatingAnimation = {
   initial: { opacity: 0.3, y: 0 },
   animate: {
