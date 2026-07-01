@@ -20,9 +20,9 @@ export default function CompanyLogos() {
           Trusted by innovative brands worldwide
         </h2>
       </div>
-      
+
       <div className="relative flex overflow-hidden w-full">
-        {/*Gradient Overlays for smooth fading*/}
+        {/*Gradient Overlays for smooth fading,,*/}
         <div className="absolute inset-y-0 left-0 w-20 z-10 bg-gradient-to-r from-white to-transparent pointer-events-none" />
         <div className="absolute inset-y-0 right-0 w-20 z-10 bg-gradient-to-l from-white to-transparent pointer-events-none" />
 
