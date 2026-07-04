@@ -31,9 +31,9 @@ const codeSnippets = [
 
 //Floating and pulsing animation variants
 const floatingAnimation = {
-  initial: { opacity: 0.3, y: 0 },
+  initial: { opacity: 0.35, y: 0 },
   animate: {
-    opacity: [0.3, 0.5, 0.3], // Pulsing effect
+    opacity: [0.35, 0.65, 0.35], // Increased pulsing range for better readability
     y: [-5, 5, -5], // Floating effect
     transition: { duration: 4, repeat: Infinity, ease: "easeInOut" },
   },
@@ -46,7 +46,7 @@ export default function Hero() {
       {codeSnippets.map((snippet, index) => (
         <motion.span
           key={index}
-          className="absolute text-gray-400/50 text-[10px] sm:text-sm font-mono pointer-events-none select-none whitespace-nowrap"
+          className="absolute text-gray-400 text-xs sm:text-sm font-mono pointer-events-none select-none whitespace-nowrap"
           style={{
             top: snippet.top,
             left: "left" in snippet ? snippet.left : undefined,
