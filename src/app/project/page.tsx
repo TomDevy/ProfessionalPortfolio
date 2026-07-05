@@ -66,6 +66,13 @@ const projects = [
     image: "/blazebrandlimited.jpg",
     githubUrl: "", // Add link if you have the repo public
     liveUrl: "https://blazebrandlimited.com"
+  },
+  {
+    title: "Blaze Brand Limited - Migration Agency Website",
+    description: "An informational website providing guidance and services for individuals looking to migrate abroad.",
+    image: "/blazebrandlimited.jpg",
+    githubUrl: "", // Add link if you have the repo public
+    liveUrl: "https://blazebrandlimited.com"
   }
 ];
 
