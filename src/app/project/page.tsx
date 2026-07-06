@@ -70,7 +70,7 @@ const projects = [
   // {
   //   title: "Inkoret - E-commerce for sales of digital prints and portfolio showcase",
   //   description: "A combo of an e-commerce website for purchasing digital arts and check the portfolio of a sterling digital artist.",
-  //   image: "/blazebrandlimited.jpg",
+  //   image: "/inkoret.jpg",
   //   githubUrl: "", // Add link if you have the repo public
   //   liveUrl: "https://inkoret.com"
   // }
