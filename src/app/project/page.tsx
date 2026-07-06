@@ -67,13 +67,13 @@ const projects = [
     githubUrl: "", // Add link if you have the repo public
     liveUrl: "https://blazebrandlimited.com"
   },
-  // {
-  //   title: "Inkoret - E-commerce for sales of digital prints and portfolio showcase",
-  //   description: "A combo of an e-commerce website for purchasing digital arts and check the portfolio of a sterling digital artist.",
-  //   image: "/inkoret.jpg",
-  //   githubUrl: "", // Add link if you have the repo public
-  //   liveUrl: "https://inkoret.com"
-  // }
+  {
+    title: "Inkoret - E-commerce for sales of digital prints and portfolio showcase",
+    description: "A combo of an e-commerce website for purchasing digital arts and check the portfolio of a sterling digital artist.",
+    image: "/inkoret.jpg",
+    githubUrl: "", // Add link if you have the repo public
+    liveUrl: "https://inkoret.com"
+  }
 ];
 
 export default function Projects() {
