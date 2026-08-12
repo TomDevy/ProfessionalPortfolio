@@ -44,7 +44,7 @@ const projects = [
     description: "An engaging platform for a digital artist's mentorship academy, featuring class schedules, resources, and curated sessions for aspiring creatives.",
     image: "/OA Academy.jpeg",
     githubUrl: "", // Add link if you have the repo public
-    liveUrl: "https://www.oaacademy.online/"
+    liveUrl: "https://academy.olamide.ng/"
   },
   {
     title: "All In One Home Inspections - Home inspection booking website",
@@ -58,7 +58,7 @@ const projects = [
     description: "An e-commerce website offering digital arts and creative materials for artists and enthusiasts.",
     image: "/oastores.jpg",
     githubUrl: "", // Add link if you have the repo public
-    liveUrl: "https://oastores.com"
+    liveUrl: "https://store.olamide.ng/"
   },
   {
     title: "Blaze Brand Limited - Migration Agency Website",
