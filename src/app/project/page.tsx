@@ -54,6 +54,13 @@ const projects = [
     liveUrl: "https://www.allinonehomeinspections.com/"
   },
   {
+    title: "Studio89 - Portfolio website for a digital painting studio",
+    description: "A modern website for a U.S.-based home inspection company, featuring online booking, service details, and a seamless user experience.",
+    image: "/All in One Home Inspection.jpeg",
+    githubUrl: "", // Add link if you have the repo public
+    liveUrl: "https://www.allinonehomeinspections.com/"
+  },
+  {
     title: "OA Stores - E-commerce for Digital Arts & Materials",
     description: "An e-commerce website offering digital arts and creative materials for artists and enthusiasts.",
     image: "/oastores.jpg",
