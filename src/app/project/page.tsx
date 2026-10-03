@@ -58,7 +58,7 @@ const projects = [
     description: "A modern website for a U.S.-based home inspection company, featuring online booking, service details, and a seamless user experience.",
     image: "/All in One Home Inspection.jpeg",
     githubUrl: "", // Add link if you have the repo public
-    liveUrl: "https://www.allinonehomeinspections.com/"
+    liveUrl: "https://www.studio89.art/"
   },
   {
     title: "OA Stores - E-commerce for Digital Arts & Materials",
