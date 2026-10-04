@@ -57,7 +57,7 @@ const projects = [
     title: "Studio89 - Portfolio website for a digital painting studio",
     description: "A modern website for a U.S.-based home inspection company, featuring online booking, service details, and a seamless user experience.",
     image: "/All in One Home Inspection.jpeg",
-    githubUrl: "", // Add link if you have the repo public
+    githubUrl: "", // Add link if you have the
     liveUrl: "https://www.studio89.art/"
   },
   {
