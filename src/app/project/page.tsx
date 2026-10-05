@@ -50,7 +50,7 @@ const projects = [
     title: "All In One Home Inspections - Home inspection booking website",
     description: "A modern website for a U.S.-based home inspection company, featuring online booking, service details, and a seamless user experience.",
     image: "/All in One Home Inspection.jpeg",
-    githubUrl: "", // Add link if you have the repo public
+    githubUrl: "", // Add link if you have the repo 
     liveUrl: "https://www.allinonehomeinspections.com/"
   },
   {
