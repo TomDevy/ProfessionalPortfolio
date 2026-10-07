@@ -56,7 +56,7 @@ const projects = [
   {
     title: "Studio89 - Portfolio website for a digital painting studio",
     description: "A modern website for a U.S.-based home inspection company, featuring online booking, service details, and a seamless user experience.",
-    image: "/studio89.jpeg",
+    image: "/studio89.png",
     githubUrl: "",
     liveUrl: "https://www.studio89.art/"
   },
